@@ -10,7 +10,7 @@
   <header>
     <h1>Discover Your Next Adventure</h1>
     <p>Find the ideal destination based on your preferences.</p>
-      header {
+      {
       text-align: center;
       background-color: #4682b4;
       color: white;
