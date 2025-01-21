@@ -14,17 +14,7 @@
   <main>
     <form id="preferencesForm">
       <label for="weather">Preferred Weather: 
-  label {
-  display: block;
-  margin: 10px 0 5px;
-}
-        input, select, button {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}</label>
+  </label>
       <select id="weather" name="weather">
         <option value="sunny">Sunny</option>
         <option value="cold">Cold</option>
@@ -63,7 +53,17 @@ header  {
       color: white;
       padding: 20px 0;
       }
-
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+        input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
 
 
 
