@@ -31,14 +31,14 @@
     <p>© 2025 MY-Tee Travel Page</p>
   </footer>
   <script src="scripts.js"></script>
-  body {
+</body>
+</html>
+body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f0f8ff;
   }
-</body>
-</html>
 header  {
       text-align: center;
       background-color: #4682b4;
