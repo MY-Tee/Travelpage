@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body style="body">
-  <header style="">
+  <header style="header">
     <h1>Discover Your Next Adventure</h1>
     <p>Find the ideal destination based on your preferences.</p>
   </header>
