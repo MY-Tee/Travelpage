@@ -19,13 +19,10 @@
         <option value="cold">Cold</option>
         <option value="rainy">Rainy</option>
       </select>
-
       <label for="activities">Favorite Activities:</label>
       <input type="text" id="activities" name="activities" placeholder="e.g., hiking, swimming">
-
       <label for="budget">Budget:</label>
       <input type="number" id="budget" name="budget" placeholder="Enter your budget in USD">
-
       <button type="submit">Get Recommendations</button>
     </form>
   </main>
