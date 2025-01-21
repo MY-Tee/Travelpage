@@ -14,7 +14,12 @@
     <h1>Discover Your Next Adventure</h1>
     <p>Find the ideal destination based on your preferences.</p>
   </header>
-  <main>
+  <main style="max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
     <form id="preferencesForm">
       <label for="weather" style=display: block; margin: 10px 0 5px;>Preferred Weather: 
   </label>
@@ -41,10 +46,7 @@
 
  
   
-  label {
-    
-    }
-  input, select, button {
+  select, button {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
