@@ -8,12 +8,12 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-body {
+  body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f0f8ff;
-}
+  }
   <header>
     <h1>Discover Your Next Adventure</h1>
     <p>Find the ideal destination based on your preferences.</p>
