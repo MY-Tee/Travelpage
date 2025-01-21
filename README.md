@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0; 
     background-color: #f0f8ff;">
-  <header style="header">
+  <header style="text-align: center;background-color: #4682b4;color: white;padding: 20px 0;">
     <h1>Discover Your Next Adventure</h1>
     <p>Find the ideal destination based on your preferences.</p>
   </header>
@@ -40,9 +40,6 @@
 
 
  
-  header {
-    text-align: center;background-color: #4682b4;color: white;padding: 20px 0;
-  }
   
   label {
     display: block; margin: 10px 0 5px;
