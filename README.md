@@ -3,11 +3,7 @@
 <html lang="en">
 <head>
   <style>
-  body  {
-font-family: Arial, sans-serif;margin: 0;padding: 0;background-color: #f0f8ff}
-header  {
-      text-align: center;background-color: #4682b4;color: white;padding: 20px 0;
-      }  
+  body  {font-family: Arial, sans-serif;margin: 0;padding: 0;background-color: #f0f8ff}
   </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,6 +37,9 @@ header  {
 </body>
 </html>
 
+header  {
+      text-align: center;background-color: #4682b4;color: white;padding: 20px 0;
+      }  
 label {
   display: block;
   margin: 10px 0 5px;
