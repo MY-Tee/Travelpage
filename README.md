@@ -26,14 +26,6 @@
       <input type="number" id="budget" name="budget" placeholder="Enter your budget in USD">
       <button type="submit">Get Recommendations</button>
     </form>
-  main {
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 20px;
-  background: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
   </main>
   <footer>
     <p>© 2025 MY-Tee Travel Page</p>
@@ -64,7 +56,14 @@ label {
   border: 1px solid #ddd;
   border-radius: 4px;
 }
-
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
 
 
 
