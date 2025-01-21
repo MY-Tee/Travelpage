@@ -2,9 +2,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
+<style>
   body  {font-family: Arial, sans-serif;margin: 0;padding: 0;background-color: #f0f8ff}
-  </style>
+  header  {text-align: center;background-color: #4682b4;color: white;padding: 20px 0;}
+  label {display: block; margin: 10px 0 5px;}
+        input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+  main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  button {
+  background-color: #4682b4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #5a9fd6;
+}
+</style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
@@ -37,42 +63,14 @@
 </body>
 </html>
 
-header  {
-      text-align: center;background-color: #4682b4;color: white;padding: 20px 0;
-      }  
-label {
-  display: block;
-  margin: 10px 0 5px;
-}
-        input, select, button {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-main {
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 20px;
-  background: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
 
 
 
 
-button {
-  background-color: #4682b4;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
 
-button:hover {
-  background-color: #5a9fd6;
-}
+
+
+
 document.getElementById('preferencesForm').addEventListener('submit', function (e) {
   e.preventDefault();
   
