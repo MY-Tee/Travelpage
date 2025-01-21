@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 <style>
-  body  {font-family: Arial, sans-serif;margin: 0;padding: 0;background-color: #f0f8ff}
+  body {font-family: Arial, sans-serif;margin: 0;padding: 0;background-color: #f0f8ff}
   header  {text-align: center;background-color: #4682b4;color: white;padding: 20px 0;}
   label {display: block; margin: 10px 0 5px;}
         input, select, button {
