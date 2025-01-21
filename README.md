@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body style="font-family: Arial, sans-serif;margin: 0;padding: 0;background-color: #f0f8ff;">
-  <header style="text-align: center;background-color: #4682b4;color: white;padding: 20px 0;">
+<body style="body">
+  <header style="">
     <h1>Discover Your Next Adventure</h1>
     <p>Find the ideal destination based on your preferences.</p>
   </header>
@@ -33,8 +33,10 @@
   <script src="scripts.js"></script>
 </body>
 </html>
+body  {
+font-family: Arial, sans-serif;margin: 0;padding: 0;background-color: #f0f8ff}
 header  {
-      
+      text-align: center;background-color: #4682b4;color: white;padding: 20px 0;
       }
 label {
   display: block;
