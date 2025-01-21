@@ -4,17 +4,17 @@
 <head>
 <style>
   body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0; 
-    background-color: #f0f8ff;
+    
   }
 </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body style="font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-color: #f0f8ff;">
   <header style="header">
     <h1>Discover Your Next Adventure</h1>
     <p>Find the ideal destination based on your preferences.</p>
