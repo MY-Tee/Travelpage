@@ -8,12 +8,6 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f0f8ff;
-  }
   <header>
     <h1>Discover Your Next Adventure</h1>
     <p>Find the ideal destination based on your preferences.</p>
@@ -26,52 +20,56 @@ header {
   </header>
   <main>
     <form id="preferencesForm">
-      <label for="weather">Preferred Weather:</label>
+      <label for="weather">Preferred Weather: 
+  label {
+  display: block;
+  margin: 10px 0 5px;
+}
+        input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}</label>
       <select id="weather" name="weather">
         <option value="sunny">Sunny</option>
         <option value="cold">Cold</option>
         <option value="rainy">Rainy</option>
       </select>
-
       <label for="activities">Favorite Activities:</label>
       <input type="text" id="activities" name="activities" placeholder="e.g., hiking, swimming">
-
       <label for="budget">Budget:</label>
       <input type="number" id="budget" name="budget" placeholder="Enter your budget in USD">
-
       <button type="submit">Get Recommendations</button>
     </form>
-  </main>
-  <footer>
-    <p>© 2025 Travel Recommender</p>
-  </footer>
-  <script src="scripts.js"></script>
-</body>
-</html>
-
-
-
-main {
+  main {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
   background: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+  }
+  </main>
+  <footer>
+    <p>© 2025 MY-Tee Travel Page</p>
+  </footer>
+  <script src="scripts.js"></script>
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+  }
+</body>
+</html>
 
-label {
-  display: block;
-  margin: 10px 0 5px;
-}
 
-input, select, button {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
+
+
+
+
 
 button {
   background-color: #4682b4;
