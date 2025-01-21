@@ -16,7 +16,7 @@
   </header>
   <main>
     <form id="preferencesForm">
-      <label for="weather">Preferred Weather: 
+      <label for="weather" style=display: block; margin: 10px 0 5px;>Preferred Weather: 
   </label>
       <select id="weather" name="weather">
         <option value="sunny">Sunny</option>
@@ -42,7 +42,7 @@
  
   
   label {
-    display: block; margin: 10px 0 5px;
+    
     }
   input, select, button {
   width: 100%;
