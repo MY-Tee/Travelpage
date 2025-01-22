@@ -44,24 +44,24 @@
         <div class="recommendation">
             <h3>Beaches</h3>
             <div class="images">
-                <img src="Github/beach1.jpg" alt="Beach 1">
-                <img src="Github/beach2.jpg" alt="Beach 2">
+                <img src="beach1.jpg" alt="Beach 1">
+                <img src="beach2.jpg" alt="Beach 2">
             </div>
         </div>
       <!-- Temple Recommendations -->
         <div class="recommendation">
             <h3>Temples</h3>
             <div class="images">
-                <img src="Github/temple1.jpg" alt="Temple 1">
-                <img src="Github/temple2.jpg" alt="Temple 2">
+                <img src="temple1.jpg" alt="Temple 1">
+                <img src="temple2.jpg" alt="Temple 2">
             </div>
         </div>
       <!-- Recommendations by Country -->
         <div class="recommendation">
             <h3>Destinations by Country</h3>
             <div class="images">
-                <img src="Github/country1.jpg" alt="Country 1">
-                <img src="Github/country2.jpg" alt="Country 2">
+                <img src="country1.jpg" alt="Country 1">
+                <img src="country2.jpg" alt="Country 2">
             </div>
         </div>
     </section>
