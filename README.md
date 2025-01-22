@@ -24,7 +24,7 @@
   <!-- About Us Page -->
     <section id="about">
         <h2>About Us</h2>
-        <p>We are passionate about helping travelers explore the world. Our platform provides interactive displays, detailed descriptions, and multimedia content to enhance your travel planning experience.</p>
+        <p>We are passionate about helping travelers explore the world. Our platform provides interactive displays, detailed descriptions, and multimedia content to enhance your travel planning experience. Unlock the potential of travel with our demographic analysis. We help to craft tailored travel experiences, develop targeted adventure-seeking demographic. From tech-savvy Millennials to experienced baby boomers, join us and elevate your travel experience!</p>
     </section>
   <!-- Contact Us Page -->
     <section id="contact">
